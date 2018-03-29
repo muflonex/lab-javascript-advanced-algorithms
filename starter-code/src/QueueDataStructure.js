@@ -35,7 +35,7 @@ QueueDataStructure.prototype.enqueue = function(el){
   }
 }
 QueueDataStructure.prototype.dequeue = function(){
-  if(this.queueControl.length > 1){
+  if(this.queueControl.length >= 1){
     return this.queueControl.pop()
   }
   else{

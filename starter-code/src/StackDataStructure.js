@@ -32,6 +32,7 @@ StackDataStructure.prototype.pop     = function(popped){
   if(this.isEmpty()){
     return "Stack Underflow"
   }else{
-    return this.lastAdded
+    this.stackControl = this.stackControl.splice(0,this.stackControl-1)
+    return this.lastAdded 
   }
 }
