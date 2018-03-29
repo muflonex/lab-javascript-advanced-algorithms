@@ -1,0 +1,34 @@
+.btn{
+  margin: 5px 0 0 0;
+}
+.well{
+  border-radius: 0;
+  margin: 1px;
+  border: 1px solid white;
+  background-color: #ccc;
+  color:white;
+  height:50px;
+  line-height:12px;
+  text-align: center;
+  transition: all 1s ease-in; 
+}
+.filled{
+  background-color: #0b8eda;
+  border: 1px solid #023966
+}
+.overflow{
+  background-color: #dd6b7e;
+  border: 1px solid #ad102b;
+  color: #ad102b
+}
+input{
+  width:100%;
+  margin: 10px 0 10px 0;
+}
+.container{
+  padding:0
+}
+h1,h2{
+  margin: 20px auto;
+  width:30%;
+}
